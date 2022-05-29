@@ -1,0 +1,160 @@
+.about {
+  height: 596px;
+  min-width: 1400px;
+  background: $black;
+  font-family: $font;
+  display: flex;
+  align-content: space-around;
+  position: relative;
+  column-gap: 35%;
+  align-items: center;
+}
+.paragraph-about h2 {
+  position: absolute;
+  width: 314;
+  top: 10%;
+  margin-left: 1%;
+  font-family: $font;
+  font-size: 36px;
+  font-weight: 600;
+  color: $font-col;
+  z-index: 1;
+}
+.paragraph-about h2::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 120%;
+  width: 200px;
+  height: 2px;
+  background: $orange;
+}
+
+.paragraph-about p {
+  position: absolute;
+  width: 400px;
+  top: 30%;
+  margin-left: 1%;
+  font-family: $font;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: $font-col;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.banner2 {
+  background: $banner-svg;
+  background-size: fit;
+  background-repeat: no-repeat;
+  scale: 150%;
+  width: 389px;
+  height: 169px;
+  margin-top: 150px;
+  margin-left: 70%;
+}
+
+.titles {
+  position: relative;
+  margin-left: 0px;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  margin-top: 200px;
+
+  .p1 {
+    margin-top: 50px;
+    margin-left: 60px;
+    padding-left: 10px;
+    position: relative;
+    width: 220px;
+    height: 38px;
+    font-family: $font;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    color: $font-col;
+  }
+
+  .p-icon1 {
+    background: $comment-icon;
+    background-size: fit;
+    background-repeat: no-repeat;
+    scale: 90%;
+    position: relative;
+    height: 25px;
+    width: 30px;
+    left: -50px;
+    top: -8%;
+  }
+
+  .p-icon1::before {
+    content: "";
+    background: $orange;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: -5px;
+    border: 40px 40px solid $orange;
+    border-radius: 100px;
+    margin-top: -20%;
+    opacity: 0.5;
+  }
+  .p-icon2::before {
+    content: "";
+    background: $orange;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: -5px;
+    border: 40px 40px solid $orange;
+    border-radius: 100px;
+    margin-top: -20%;
+    opacity: 0.5;
+  }
+
+  .p-icon2 {
+    background: $eye-icon;
+    background-size: fit;
+    background-repeat: no-repeat;
+    scale: 90%;
+    position: relative;
+    height: 25px;
+    width: 30px;
+    left: -50px;
+    top: -10%;
+    z-index: 1;
+  }
+  .p1::after {
+    content: "Title";
+    position: absolute;
+    padding-left: 10px;
+    color: $font-col;
+    font-family: $font;
+    font-weight: 600;
+    height: 40px;
+    width: 40px;
+    left: 0px;
+    top: -30%;
+  }
+}
+.paragraph-about {
+  top: 14%;
+
+  h2 {
+    width: 314px;
+    height: 80px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  p {
+    width: 451px;
+    height: 58px;
+    height: 80px;
+    text-align: left;
+    font-weight: normal;
+    font-size: 14px;
+  }
+}

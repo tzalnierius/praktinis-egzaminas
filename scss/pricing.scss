@@ -1,0 +1,129 @@
+.pricing-body {
+  background: $blue;
+  font-family: $font;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  height: 890px;
+  min-width: 1400px;
+  flex-flow: wrap;
+}
+
+.pricing-body h1 {
+  position: absolute;
+  padding-top: 67px;
+  width: 400px;
+  height: 44px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: $font;
+  letter-spacing: 0px;
+  color: $font-col;
+  align-self: flex-start;
+  left: 39%;
+}
+.pricing-body h1::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 140px;
+  left: 40%;
+  width: 84px;
+  height: 2px;
+  background: $green;
+}
+
+.pricing-body p {
+  top: 180px;
+  left: 29%;
+  font-size: 14px;
+  font-family: $font;
+  font-weight: normal;
+  color: $font-col;
+}
+
+.pricing-table-1 {
+  text-align: center;
+  width: 343px;
+  height: 290px;
+  border-radius: 4px 4px 4px 4px;
+  flex-direction: column;
+  align-self: center;
+  margin: 40px;
+}
+
+.pricing-title {
+  background: $black;
+  font-family: $font;
+  font-weight: normal;
+  font-size: 16px;
+  text-transform: none;
+  color: $font-col;
+  padding: 10px 0;
+  border-radius: 4px 4px 0 0;
+}
+.price {
+  background: $black;
+  font-family: $font;
+  font-weight: normal;
+  font-size: 94px;
+  text-transform: none;
+  color: $font-col;
+  padding: 5px;
+}
+.price sub {
+  background: $black;
+  font-family: $font;
+  font-weight: normal;
+  font-size: 44px;
+  text-transform: none;
+  color: $font-col;
+}
+.frequency {
+  background: $black;
+  font-family: $font;
+  font-weight: normal;
+  font-size: 14px;
+  text-transform: none;
+  color: $grey;
+  padding-bottom: 10px;
+}
+.pricing-divider {
+  height: 6px;
+  background: $green;
+}
+.table-list {
+  background: $bg-col;
+  color: $grey;
+  list-style: none;
+  line-height: 40px;
+  border-radius: 0 0 4px 4px;
+}
+.table-list li {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: $font;
+  text-transform: uppercase;
+}
+
+.pricing-table-2 {
+  display: inline;
+  text-align: center;
+  width: 343px;
+  height: 290px;
+  border-radius: 4px 4px 4px 4px;
+  flex-direction: column;
+  align-self: center;
+  margin: 40px;
+}
+.pricing-divider-2 {
+  height: 30px;
+  background: $green;
+  font-family: $font;
+  font-weight: normal;
+  font-size: 14px;
+  color: $font-col;
+  text-align: center;
+  padding-top: 10px;
+}

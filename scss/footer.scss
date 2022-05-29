@@ -1,0 +1,28 @@
+.footer {
+  min-width: 1400px;
+  height: 123px;
+  background: $black;
+  display: flex;
+  align-self: center;
+}
+.foot-icons {
+  display: flex;
+  align-self: left;
+  flex-direction: row;
+  margin-top: 42px;
+  margin-left: 0px;
+  scale: 80%;
+}
+.footer p {
+  align-content: flex-end;
+  position: relative;
+  margin-top: -8px;
+  margin-left: 55%;
+  height: 20px;
+  // width: 213px;
+  font-family: $font;
+  font-size: 14px;
+  font-weight: normal;
+  color: $font-col;
+  opacity: 0.5;
+}

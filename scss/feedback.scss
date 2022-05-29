@@ -1,0 +1,98 @@
+.feedback {
+  height: 591px;
+  min-width: 1400px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.feedback h1 {
+  position: absolute;
+  padding-top: 67px;
+  width: 696px;
+  height: 44px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: $font;
+  letter-spacing: 0px;
+  color: $black;
+}
+.feedback h1::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 150px;
+  left: 44%;
+  width: 84px;
+  height: 2px;
+  background: $blue;
+}
+
+.feedback-sec {
+  display: flex;
+  position: relative;
+  align-self: center;
+  flex-direction: column;
+  flex: auto;
+  left: 5%;
+}
+
+.avatar {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background: $avatar;
+  border-radius: 100px;
+  top: 130px;
+  left: 45px;
+}
+
+.avatar::before {
+  position: absolute;
+  content: "";
+  border: 10px solid transparent;
+  border-top: 10px solid $blue;
+  bottom: 120%;
+  left: 45%;
+}
+
+.feedback-sec p {
+  position: absolute;
+  width: 230px;
+  height: 107px;
+  font-family: $font;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  color: $font-col;
+  background: $blue;
+  padding: 20px;
+  margin-top: -50px;
+  border-radius: 20px 20px 20px 20px;
+  opacity: 1;
+}
+.feedback-sec h3 {
+  position: absolute;
+  width: 100px;
+  height: 24px;
+  font-family: $font;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: left;
+  color: $black;
+  left: 127px;
+  top: 148px;
+}
+.feedback-sec h4 {
+  position: absolute;
+  width: 63px;
+  height: 18px;
+  font-family: $font;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: left;
+  color: $grey;
+  left: 127px;
+  top: 174px;
+}

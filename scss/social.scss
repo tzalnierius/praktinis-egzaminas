@@ -1,0 +1,85 @@
+.social-media {
+  height: 105px;
+  min-width: 1400px;
+  background: $bg-col;
+  display: flex;
+  margin-left: 10%;
+  column-gap: 10%;
+  align-self: flex-end;
+}
+
+article h3 {
+  font-family: $font;
+  color: $black;
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 19px;
+}
+
+article p {
+  width: 394px;
+  font-family: $font;
+  font-weight: normal;
+  color: $grey;
+  font-size: 14px;
+  padding-top: 335px;
+  margin-left: -0.01%;
+}
+
+.social {
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  margin-left: 23%;
+}
+.social-icon {
+  color: $orange;
+  margin-left: 60px;
+}
+.icon-1 {
+  background: $fb-icon;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30px;
+  width: 30px;
+  opacity: 0.65;
+  cursor: pointer;
+}
+
+.icon-2 {
+  background: $tw-icon;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30px;
+  width: 30px;
+  opacity: 0.65;
+  cursor: pointer;
+}
+.icon-3 {
+  background: $ig-icon;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30px;
+  width: 30px;
+  opacity: 0.65;
+  cursor: pointer;
+}
+.icon-4 {
+  background: $pn-icon;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30px;
+  width: 30px;
+  opacity: 0.65;
+  cursor: pointer;
+}
+.icon-5 {
+  background: $rss-icon;
+  color: $orange;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30px;
+  width: 30px;
+  opacity: 0.65;
+  cursor: pointer;
+}
